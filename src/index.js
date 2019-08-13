@@ -1,7 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './app.jsx';
 
 ReactDOM.render(
-  <div>Hello, React3</div>,
+  <App/>,
   document.getElementById('root')
 )
